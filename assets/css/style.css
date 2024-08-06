@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Roboto-Bold.woff);
+}
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Roboto-Bold.woff2);
+}
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Roboto-Regular.woff2);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+button {
+    cursor: pointer;
+}
+/* HEADER-STYLES */
+header .container {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+}
+.sidenav-list {
+    display: flex;
+    gap: 40px;
+}
+.header-text {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.sidenav-item {
+    font-size: 18px;
+}
+.sidenav-item:hover {
+    color: #FF7A50;
+    cursor: pointer;
+}
+.header-btn {
+    width: 120px;
+    font-size: 18px;
+    color: #fff;
+    height: 37px;
+    background: #FF7A50;
+    border-radius: 7px;
+    border: none;
+}
+.header-btn:hover {
+    box-shadow: 0px 22px 40px 0px #FF683830;
+}
+.header-btn:active {
+    transform: scale(1.1);
+}
+.super-fast-food{
+    width: 930px;
+height: 156px;
+margin-top: 450px;
+margin-left: -605px;
+gap: 0px;
+opacity: 0px;
+
+}
